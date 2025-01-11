@@ -366,6 +366,9 @@ header{
     width: 80px;
 
 }
+.footer-logo{
+    margin-bottom: 10px;
+}
 .footer-box{
     display: flex;
     flex-direction: column;
@@ -388,4 +391,28 @@ header{
     color: #121212;
     background: #94908e;
     transition: 0.4s ease-in-out;
+}
+.footer-box h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.footer-box  p{
+    margin-bottom: 8px;
+    
+
+}
+.footer-box p span{
+    display: inline-block;
+    width: 50px;
+}
+.footer-box a{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.copyright{
+    padding: 30px;
+    color: #fff;
+    text-align: center;
 }
