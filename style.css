@@ -241,3 +241,72 @@ header{
     color: #94908e;
     opacity: 7;
 }
+.items{
+    background: #d18a93;
+}
+.item-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+
+}
+.item-box{
+    position: relative;
+    background: #94908e;
+    padding: 24px 14px;
+    border-radius: 8px;
+    border: 1px solid rgb(75 18 4 / 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-box .sale{
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    background: #121212;
+    color: #94908e;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+.item-box img{
+    max-width: 264px;
+    width: 100%;
+    object-position: center;
+    margin-bottom: 1.2rem;
+    border-radius: 10px;
+}
+.item-box h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(61, 24, 24);
+}
+.item-box .price{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 1.2rem;
+}
+.item-box .price h3{
+    color:rgb(61, 24, 24); 
+    font-weight: 500;
+}
+.item-box .price p{
+    text-decoration: line-through;
+    font-weight: 500;
+    color: rgb(61, 24, 24,0.8);
+}
+.item-btn{
+    background: yellow;
+    color: rgb(61, 24, 24);
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.item-btn:hover{
+    background: rgb(61, 24, 24);
+    color: #94908e;
+    transition: 0.4s ease-in-out;
+}
